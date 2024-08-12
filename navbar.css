@@ -1,0 +1,70 @@
+.navbar a {
+    /* Style the individual links */
+    text-decoration: none;
+    color: #6D123f;
+    font-weight: bold;
+    justify-content: flex-end;
+     /* Add spacing between links */
+}
+.navbar{justify-content: flex-end}
+
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Add right margin between items */
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a:hover {
+    /* Style on hover (optional) */
+    color:#6D123f;
+    text-decoration: underline;
+}
+
+
+.searchBox {
+    height: 40px;
+    display: flex;
+    max-width: 750px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background: #fefefedc;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 27px;
+    position: sticky;
+    margin-right: 20px;
+  }
+  
+
+  .searchButton {
+    color: white;
+    position: absolute;
+    right: -1px;
+    width: 48px;
+    height: 40px;
+    border-radius: 44%;
+    background: var(--gradient-2, linear-gradient(90deg, #CA69D2 0%, #CA69D2 100%));
+    border: thin;
+    display: inline-block;
+    transition: transform 0.3s ease ;
+  }
+  
+  .searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    color: #000;
+    font-size: 15px;
+    padding: 24px 46px 24px 26px;
+  }
+  
+
+  #login {
+    /* margin-left: 40px; */
+    color: #6D123f;
+  }
+  
