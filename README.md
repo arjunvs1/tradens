@@ -1,1 +1,1 @@
-# REPO_1
+# A demo website of an online electronics store.
